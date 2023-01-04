@@ -1,6 +1,6 @@
 <?php
 
-    session_start();
+    session_start(); //Teste
 
     $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
     $sucesso = isset($_GET['sucesso_registro']) ? $_GET['sucesso_registro'] : 0;
