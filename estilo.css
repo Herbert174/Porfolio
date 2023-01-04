@@ -1,0 +1,83 @@
+/* ------------------- Layout ----------------------- */
+body{background-image: url("imagens/capa2.png");}
+#conteudo{margin-top: 50px;}
+#conteudo1{margin-top: 20px;}
+.container-custom{width: 100%;}
+
+/* -------------- Barra de Navegação ---------------- */
+.navbar-custom{background-color: #2D4E7B;}
+.navbar-custom .navbar-nav> li > a{color: white;}
+.navbar-custom .navbar-nav> li > a:hover{color: black; border-bottom: 1px solid black;}
+.carrinho_compras{height: 20px; width: 20px; margin-right: 5px;}
+.menu-custom{border-radius: 10px;}
+.menu-custom1{border-radius: 10px; padding-left: 5px;}
+.nav-custom{color: white; margin-left: 10px; margin-top: 15px;}
+
+/* ---------------- Imagem de capa ------------------ */
+
+ #gallery_01 img{border:2px solid white; margin-top: 4px;}
+ 
+ /*Change the colour*/
+ .active img{border:2px solid #333 !important;}
+
+/* --------------------- Botões --------------------- */
+.botao{width: 100%;}
+.btn_custom{color: white; border-color: #2D4E7B; border-right: #2D4E7B; border-bottom: #2D4E7B; background: #2D4E7B; height: 50px; width: 150px;}
+.btn_custom:hover{color: black; border-bottom: 1px solid black;}
+.btn-custom1{background: #2D4E7B;}
+.btn-custom1:hover{color: black;}
+.link-custom{color: black;}
+.link-custom:hover{color: blue; text-decoration: none;}
+.input-custom{width: 50px;}
+.input-custom1{width: 200px;}
+.btn-blue{background: #2D4E7B; color: white; border-radius: 10px;}
+.btn-blue:hover{background: #1c3a64; color: white;}
+/* ---------------- Seção conteudo ------------------ */
+.custom{width: 100%;}
+.tamanho{height: 350px;}
+.custom1{background-color: #D3D3D3; border-style: groove; border-color: black;}
+.borda{border-color: #5F5D5D; border-top: 2px solid; border-bottom: 2px solid;}
+.borda1{border-color: #5F5D5D; border-top: 2px solid;}
+.img-custom{height: 170px; width: 100%; margin-top: 15px;}
+.img-custom1{height: 200px; width: 100%;}
+.img-custom2{height: 350px; width: 100%;}
+.img-produto {overflow: hidden;}
+.img-produto img{
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.img-produto:hover img{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.img-custom3{height: 200px; width: 100%;}
+
+.img-whatsapp{position:fixed; height: 50px; width: 50px; bottom: 120px; right: 30px; z-index: 1000;}
+
+.estrelas input[type=radio]{display: none; }
+.estrelas label i.fa:before{content: '\f005'; color: #FC0;}
+.estrelas input[type=radio]:checked ~ label i.fa:before{color: #CCC;}
+.tabela_custom{background-color: black; color: white;}
+
+/* ----------------- Seção rodapé ------------------- */
+.item-rede-social{float: right; position: relative;}
+#rodape a:hover{color:white; background: none}
+.item-rede-social:hover{background: #2D4E7B; border-radius: 10px;}
+.img-rodape{height: 100px; width: 300px;}
+/* =================== Tipografia =================== */
+.titulo1{text-align: center;}
+.negrito{font-weight: bold;}
+.titulo2{margin-left: 100px;}
+.centro{position: center;}
+.direita{float: right;}
+/* ----------------- Media Queries ------------------ */
+/* XS <768 */
+@media screen and (max-width: 992px)
+	{
+	.img-custom{height: 350px;}
+	.img-custom1{height: 300px;}
+	}
+/* Fim Media queries */
